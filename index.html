@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Małgorzata Kurowska | Full Stack Web Developer</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" >
+    <link href="https://fonts.googleapis.com/css?family=Oxygen|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="style.css" rel="stylesheet"/>
+    
+</head>
+<body data-spy="scroll" data-target="#menu" >
+
+<nav class="navbar navbar-dark navbar-expand-md fixed-top" role="navigation">
+    <div class="container-fluid">
+         <a class="navbar-brand" href="#">MK</a> 
+         <button type="button" class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button> 
+            
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ml-auto ">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#aboutMe">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Resume</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!--- Start Home Section --> 
+<div id="home" >
+    <div class="landing-text">
+        <h1>Małgorzata Kurowska</h1>
+        <h3>Full Stack Web Developer</h3>
+    </div>
+</div>
+
+
+<div id="aboutMe" >
+<div class="container padding">
+    <div class="row">
+        <div class="col-sm-8">
+            <h2 class="heading">About me</h2>
+            <p class="lead">Hi there! I'm Małgorzata Kurowska - a self-taught web developer. </p>
+            <p class="lead">I worked in corporation, as an auditor for 6 years and decided to switch career and become a programmer. </p>
+            <p class="lead">My previous work experience tought me how to work under pressure, how to prioritise, plan and manage time as well as how to work well with others and communicate effectively. </p>
+            <p class="lead">I am highly-motivated, self-driven and hard-working. I am looking forward to learn new technologies and become a valuable employee of the company. </p>
+        </div>
+        <div class="col-sm-4">
+            
+        </div>
+    </div>
+</div>
+</div>
+
+<div id="fixed">
+</div>
+
+<div id="projects"  >
+<div class="container padding">
+    <h3 class="heading">Projects</h3>
+    <div class="row">
+        <div class="col-md-4 col-sm-6 col-sm-12">
+            <div class="card text-center">
+                <img class="card-img-top" src="img/dormouse.jpg">
+                <div class="card-body">
+                    <h4 class="card-title">Django blog</h4>
+                    <p class="card-text">Simple personal blog, allowing adding posts, pictures and  comments.</p>
+                    <a href="#" class="btn btn-outline-secondary">Visit</a>
+                    <a href="#" class="btn btn-outline-secondary">GitHub</a>
+                </div>
+            </div> <!---End card-->  
+        </div> <!---End col-->
+        <div class="col-md-4 col-sm-6 col-sm-12">
+            <div class="card text-center">
+                <img class="card-img-top" src="img/dormouse.jpg">
+                <div class="card-body">
+                    <h4 class="card-title">Smart brain app</h4>
+                    <p class="card-text">Face recognition app, detecting faces in photos uploaded by the user.</p>
+                    <a href="#" class="btn btn-outline-secondary">Visit</a>
+                    <a href="#" class="btn btn-outline-secondary">GitHub</a>
+                </div>
+            </div> <!---End card-->
+        </div> <!---End col-->
+        <div class="col-md-4 col-sm-6 col-sm-12">
+            <div class="card text-center">
+                <img class="card-img-top" src="img/dormouse.jpg">
+                <div class="card-body">
+                    <h4 class="card-title">Matching game</h4>
+                    <p class="card-text">Simple web based game that requires players to spot the pairs of tiles.</p>
+                    <a href="#" class="btn btn-outline-secondary">Visit</a>
+                    <a href="#" class="btn btn-outline-secondary">GitHub</a> 
+                </div>
+            </div> <!---End card-->  
+        </div> <!---End col-->  
+    </div> <!---End row-->   
+</div> <!---End container-->
+</div> <!---End projects-->
+
+<div id="fixed2">
+</div>
+
+
+<div id="contact">
+    <div class="container padding">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="heading">Contact Me</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <form  action="#" method="POST" name="sentMessage" id="contactForm" novalidate>
+                    <div class="row ">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                            <input type="text" name="name" class="form-input" placeholder="Name*" id="name" required data-validation-required-message="Please enter your name.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                            <input type="email" name="_replyto" class="form-input" placeholder="Email Address*" id="email" required data-validation-required-message="Please enter your email address.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                            <input type="subject" name="_replyto" class="form-input" placeholder="Subject" id="subject">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                             <textarea rows="5" name="message" class="form-input" placeholder="Message*" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                   
+                    <div class="row">
+                        <div class="form-group col-xs-12">
+                            <button type="submit" class="button disabled">Send messege</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div> <!---End contact-->
+
+
+<footer class="container-fluid padding footer" >
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-github"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+        </div>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
+</body>
+</html>	 
+

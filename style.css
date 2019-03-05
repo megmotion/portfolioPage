@@ -1,0 +1,145 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+.navbar {
+	background-color: rgba(17, 17, 18, 0.3);
+	padding:1% 8rem;
+	font-size: 1.2em;
+	font-family: 'Oxygen', sans-serif;
+	border: 0;
+	text-transform: uppercase;
+}
+
+.navbar-default .navbar-brand {
+	font-size: 34px;
+	color: #D5D5D5;
+}
+.navbar-default .navbar-nav  li a {
+	color: #D5D5D5;
+}
+.navbar-default .navbar-nav  li a:hover, .navbar-default .navbar-nav  li a.active {
+	color: #FFF;
+}
+#home {
+	background: url(img/chrissa-giannakoudi-1302763-unsplash.jpg) no-repeat center center fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+.landing-text {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	color: #cacaca;
+}
+.landing-text h1 {
+    font-weight: 100;
+    font-size: 70px;
+    text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	text-shadow: .1rem .1rem .8rem black;
+}
+.landing-text h3 {
+    font-weight: 10;
+    font-size: 40px;
+    text-shadow: .1rem .1rem .6rem black;
+}
+.padding {
+	padding: 60px 0;
+}
+.heading{
+	text-align: center;
+	font-size: 2rem;
+	display: inline-block;
+	margin-bottom: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+#fixed {
+	background: url(img/chrissa-giannakoudi-1368681-unsplash.jpg) no-repeat center center fixed;
+	display: table;
+	height: 60%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+} 
+#fixed2 {
+	background: url(img/chrissa-giannakoudi-1368745-unsplash.jpg) no-repeat center center fixed;
+	display: table;
+	height: 60%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+} 
+
+.card {
+	transition: transform;
+	transition-duration: .4s;										 	
+}
+.card:hover{
+	transform: scale(1.1); 
+}
+.btn:hover{
+	background-color: #613C3B;
+	border-color: #613C3B;
+}
+footer {
+	width: 100%;
+	background-color: #111112;
+	padding: 5% 5% 10% 5%;
+	color: #D5D5D5;
+	text-align:center;
+}
+.fab {
+	padding: 15px;
+	font-size: 25px;
+	color: #D5D5D5;
+	text-align:center;
+}
+.fab:hover {
+	color: #FFF;
+	text-decoration: none;
+}
+.td {
+	text-align: center;;
+}
+#contactForm input, #contactForm  textarea{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #f7f7f7;
+    margin-bottom: 10px;
+    border-radius: 0px;
+    box-shadow: none;
+}
+.button {
+	    border: none;
+	    padding: 10px 50px;
+	    background: #f7f7f7;
+}
+
+@media (max-width: 768px) {
+	.navbar {
+	padding:1% 2rem;
+	}
+	.landing-text h1 {
+    font-size: 40px;
+    }
+    .landing-text h3 {
+    font-weight: 10;
+    font-size: 25px;
+}
+	.padding {
+	padding: 60px 17px;
+}
+	.card {
+		margin: 10px;										 	
+	}
+	.card:hover{
+		transform: none; 										 	
+	}
+}
