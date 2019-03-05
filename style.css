@@ -83,6 +83,10 @@ html, body {
 .card:hover{
 	transform: scale(1.1); 
 }
+.card-img-top {
+    height: 15rem;
+    object-fit: cover;
+}
 .btn:hover{
 	background-color: #613C3B;
 	border-color: #613C3B;
