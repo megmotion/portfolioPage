@@ -75,10 +75,13 @@ html, body {
 	width: 100%;
 	background-size: cover;
 } 
-
+.col-md-6{
+	padding: 1rem;
+}
 .card {
-	transition: transform;
-	transition-duration: .4s;										 	
+	/*transition: transform;
+	transition-duration: .4s;	*/	
+	overflow: hidden;								 	
 }
 .card:hover{
 	transform: scale(1.1); 
@@ -86,6 +89,38 @@ html, body {
 .card-img-top {
     height: 15rem;
     object-fit: cover;
+}
+.technologies{
+	list-style: none;
+	position: absolute;
+    top: -170%;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    -webkit-transition: top .2s;
+    transition: top .2s;
+    transition-property: top;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    background: rgba(0,0,0,.6);
+    color: #fff;
+    padding: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    height: 15rem;
+    width: 100%;
+    font-size: 1.5rem;
+}
+.card:hover .technologies {
+	transition: 1s;
+    top: -40%;
 }
 .btn:hover{
 	background-color: #613C3B;
