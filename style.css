@@ -78,9 +78,7 @@ html, body {
 .col-md-6{
 	padding: 1rem;
 }
-.card {
-	/*transition: transform;
-	transition-duration: .4s;	*/	
+.card {	
 	overflow: hidden;								 	
 }
 .card:hover{
@@ -156,24 +154,24 @@ footer {
     box-shadow: none;
 }
 .button {
-	    border: none;
-	    padding: 10px 50px;
-	    background: #f7f7f7;
+    border: none;
+    padding: 10px 50px;
+    background: #f7f7f7;
 }
 
 @media (max-width: 768px) {
 	.navbar {
-	padding:1% 2rem;
+		padding:1% 2rem;
 	}
 	.landing-text h1 {
-    font-size: 40px;
+		font-size: 40px;
     }
     .landing-text h3 {
-    font-weight: 10;
-    font-size: 25px;
+	    font-weight: 10;
+	    font-size: 25px;
 }
 	.padding {
-	padding: 60px 17px;
+		padding: 60px 17px;
 }
 	.card {
 		margin: 10px;										 	
