@@ -22,7 +22,7 @@ html, body {
 	color: #FFF;
 }
 #home {
-	background: url(img/chrissa-giannakoudi-1302763-unsplash.jpg) no-repeat center center fixed;
+	background: url(img/chrissa-giannakoudi-1302763-unsplash-compressor.jpg) no-repeat center center fixed;
 	display: table;
 	height: 100%;
 	position: relative;
@@ -60,7 +60,7 @@ html, body {
     text-transform: capitalize;
 }
 #fixed {
-	background: url(img/chrissa-giannakoudi-1368681-unsplash.jpg) no-repeat center center fixed;
+	background: url(img/chrissa-giannakoudi-1368681-unsplash-compressor.jpg) no-repeat center center fixed;
 	display: table;
 	height: 60%;
 	position: relative;
@@ -68,7 +68,7 @@ html, body {
 	background-size: cover;
 } 
 #fixed2 {
-	background: url(img/chrissa-giannakoudi-1368745-unsplash.jpg) no-repeat center center fixed;
+	background: url(img/chrissa-giannakoudi-1368745-unsplash-compressor.jpg) no-repeat center center fixed;
 	display: table;
 	height: 60%;
 	position: relative;
