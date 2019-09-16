@@ -59,6 +59,11 @@ html, body {
     font-weight: 700;
     text-transform: capitalize;
 }
+
+.udemy {
+	margin-top: 1em;
+}
+
 #fixed {
 	background: url(img/chrissa-giannakoudi-1368681-unsplash-compressor.jpg) no-repeat center center fixed;
 	display: table;
@@ -91,8 +96,7 @@ html, body {
 .technologies{
 	list-style: none;
 	position: absolute;
-    top: -170%;
-    bottom: 0;
+    top: -15rem;
     left: 0;
     margin: auto;
     margin-top: auto;
@@ -108,7 +112,7 @@ html, body {
     background: rgba(0,0,0,.6);
     color: #fff;
     padding: 10px;
-    padding-top: 10px;
+    padding-top: 35px;
     padding-right: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
@@ -118,7 +122,7 @@ html, body {
 }
 .card:hover .technologies {
 	transition: 1s;
-    top: -40%;
+    top: 0rem;
 }
 .btn:hover{
 	background-color: #613C3B;
